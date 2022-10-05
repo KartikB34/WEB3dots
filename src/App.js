@@ -3,6 +3,8 @@ import Navbar from './components/navbar/Navbar'
 import Landing from './components/landing/Landing'
 import Schedule from './components/schedule/Schedule'
 import Faq from './components/faq/Faq'
+import Panelists from './components/panelists/Panelists'
+import Sponsor from './components/sponsor/Sponsor'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Landing/>
       <Schedule />
       <Faq />
+      <Panelists />
+      <Sponsor />
     </div>
   )
 }
