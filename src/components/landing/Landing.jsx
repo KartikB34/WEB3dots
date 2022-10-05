@@ -11,11 +11,11 @@ const Landing = () => {
       <p className='text-6xl md:text-8xl text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-[#0972FF] to-[#FF005E]'>WEB3DOTS</p>
       <p className='text-3xl my-16'>Connecting dots in Web3</p>
       <a href='/' className='h-12 flex border border-[#EB7EF1] rounded-lg items-center w-32 justify-center'>Register now</a>
-      <img src={laptop} alt="laptop" className="absolute top-4 left-0 h-44 -z-10"  />
-      <img src={phone} alt="laptop" className="absolute bottom-4 left-0 h-44 -z-10"  />
-      <img src={bulb} alt="laptop" className="absolute top-4 right-0 h-44 -z-10"  />
-      <img src={mouse} alt="laptop" className="absolute mid-0 right-0 h-28 -z-10"  />
-      <img src={pc} alt="laptop" className="absolute bottom-4 right-0 h-44 -z-10"  />
+      <img src={laptop} alt="laptop" className="absolute top-4 left-0 h-36 md:h-44 -z-10"  />
+      <img src={phone} alt="laptop" className="absolute bottom-4 left-0 h-36 md:h-44 -z-10"  />
+      <img src={bulb} alt="laptop" className="absolute top-4 right-0 h-36 md:h-44 -z-10"  />
+      <img src={mouse} alt="laptop" className="absolute mid-0 right-0 h-24 md:h-28 -z-10"  />
+      <img src={pc} alt="laptop" className="absolute bottom-4 right-0 h-36 md:h-44 -z-10"  />
     </div>
   )
 }

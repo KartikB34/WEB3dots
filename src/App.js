@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar'
 import Landing from './components/landing/Landing'
 import Schedule from './components/schedule/Schedule'
+import Faq from './components/faq/Faq'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Landing/>
       <Schedule />
+      <Faq />
     </div>
   )
 }

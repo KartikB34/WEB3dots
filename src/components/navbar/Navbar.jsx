@@ -7,7 +7,7 @@ const Navbar = () => {
         <p className='text-2xl font-bold'>WEB3DOTS</p>
       </div>
 
-      <div className='flex items-center flex-row justify-between'>
+      <div className='md:flex hidden items-center flex-row justify-between'>
         <a href='/' className='mr-8'>Home</a>
         <a href='/' className='mr-8'>About us</a>
         <a href='/' className='mr-8'>Timeline</a>
