@@ -16,10 +16,10 @@ const Navbar = () => {
 
       <div className='md:flex hidden items-center flex-row justify-between'>
         <a href='/' className='mr-8'>Home</a>
-        <a href='/' className='mr-8'>Schedule</a>
-        <a href='/' className='mr-8'>FAQs</a>
-        <a href='/' className='mr-8'>Panelists</a>
-        <a href='/' className='mr-8'>Prizes</a>
+        <a href='/#schedule' className='mr-8'>Schedule</a>
+        <a href='/#faq' className='mr-8'>FAQs</a>
+        <a href='/#panelist' className='mr-8'>Panelists</a>
+        <a href='/#prizes' className='mr-8'>Prizes</a>
         <a href='/' className='mr-8 h-10 flex border rounded-lg items-center w-20 justify-center'>Login</a>
         <a href='/' className='h-10 flex border-transparent rounded-lg items-center w-24 bg-gradient-to-r from-[#F678F0] to-[#00E8FF] justify-center'>Register</a>
       </div>

@@ -13,7 +13,7 @@ import vinit from "../assets/vinit.png"
 
 const Webinar = () => {
   return (
-    <div className='px-12 pt-20 pb-8'>
+    <div className='px-12 pt-20 pb-16'>
       <p className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#C385F1] to-[#7A91D6]'>WEBINAR</p>
        <div className='flex items-center'>
         <div className='h-[2px] w-24 bg-gradient-to-r from-[#C385F1] to-[#7A91D6] mr-2'></div>
