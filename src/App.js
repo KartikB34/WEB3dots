@@ -12,13 +12,13 @@ const App = () => {
   return (
     <div className='bg-[#1E1E1E] text-white'>
       <Navbar />
-      <Landing/>
-      <Schedule />
-      <Faq />
-      <Panelists />
-      <Sponsor />
-      <Prizes />
-      <Webinar />
+      <Landing id="home"/>
+      <Schedule id="schedule" />
+      <Faq id="faq"/>
+      <Panelists id="panelist"/>
+      <Sponsor id="sponsor"/>
+      <Prizes id="prizes"/>
+      <Webinar id="webinar"/>
     </div>
   )
 }

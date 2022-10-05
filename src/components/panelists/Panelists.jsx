@@ -13,7 +13,7 @@ const Panelists = () => {
       <div className='mt-16'>
         <p className='text-2xl'>TECH PANELISTS</p>
         
-        <div className='mt-12 grid grid-cols-2 flex-wrap md:grid-cols-6 gap-y-8'>
+        <div className='mt-12 grid grid-cols-1 sm:grid-cols-2 flex-wrap md:grid-cols-5 gap-y-8'>
             <img src={panelist} alt="panelist" />
             <img src={panelist} alt="panelist" />
             <img src={panelist} alt="panelist" />
@@ -33,7 +33,7 @@ const Panelists = () => {
       <div className='mt-16'>
         <p className='text-2xl'>HR PANELISTS</p>
         
-        <div className='mt-12 grid grid-cols-2 flex-wrap md:grid-cols-6 gap-y-8'>
+        <div className='mt-12 grid grid-cols-1 sm:grid-cols-2 flex-wrap md:grid-cols-5 gap-y-8'>
             <img src={panelist} alt="panelist" />
             <img src={panelist} alt="panelist" />
             <img src={panelist} alt="panelist" />
