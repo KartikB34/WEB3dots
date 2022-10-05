@@ -5,6 +5,8 @@ import Schedule from './components/schedule/Schedule'
 import Faq from './components/faq/Faq'
 import Panelists from './components/panelists/Panelists'
 import Sponsor from './components/sponsor/Sponsor'
+import Prizes from './components/prizes/Prizes'
+import Webinar from './components/webinar/Webinar'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Faq />
       <Panelists />
       <Sponsor />
+      <Prizes />
+      <Webinar />
     </div>
   )
 }
