@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='flex h-24 pt-8 px-12 items-center flex-row justify-between'>
       <div>
-        <p className='text-2xl font-bold'>WEB3DOTS</p>
+        <p className='text-2xl font-bold'>WEB3DOT</p>
       </div>
 
       <div className='md:flex hidden items-center flex-row justify-between'>
@@ -38,7 +38,7 @@ const Navbar = () => {
           <a href='/#panelist' className='my-2'>Panelists</a>
           <a href='/#prizes' className='my-2'>Prizes</a>
           <a href='/' className='my-2 h-10 flex border rounded-lg items-center w-20 justify-center'>Login</a>
-          <a href='/' className='h-10 my-2 flex border-transparent rounded-lg items-center w-20 bg-gradient-to-r from-[#F678F0] to-[#00E8FF] justify-center'>Register</a>
+          <a href='/' className='h-10 my-2 flex font-semibold border-transparent rounded-lg items-center w-20 bg-gradient-to-r from-[#C385F1] to-[#7A91D6] justify-center'>Register</a>
         </div>
 
       </div>
