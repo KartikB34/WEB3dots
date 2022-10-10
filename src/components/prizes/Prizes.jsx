@@ -16,28 +16,28 @@ const Prizes = () => {
        {/* Actual prizes and goodies */}
        <div className='flex justify-between items-center md:px-12 mt-16 flex-wrap'>
 
-        <div className='flex flex-col p-12 my-3 bg-[#242424] items-center'>
+        <div className='transform transition duration-500 hover:scale-110 hover:border hover:border-[#EB7EF1] border-purple-800 flex flex-col p-12 my-3 bg-[#242424] items-center'>
             <img src={bluecup} alt="bluecup" className='h-20 w-16' />
             <h2 className='font-bold mt-6 text-xl'>Top 5</h2>
             <h2 className='font-bold mb-6 text-xl'>Tecchnical Mock</h2>
             <p>2K each + Tshirt + Goodies</p>
         </div>
 
-        <div className='flex flex-col p-12 my-3 bg-[#242424] items-center'>
+        <div className='transform transition duration-500 hover:scale-110 hover:border hover:border-[#EB7EF1] border-purple-800 flex flex-col p-12 my-3 bg-[#242424] items-center'>
             <img src={purplecup} alt="purplecup" className='h-20 w-16' />
             <h2 className='font-bold mt-6 text-xl'>Top 5</h2>
             <h2 className='font-bold mb-6 text-xl'>Tecchnical Mock</h2>
             <p>2K each + Tshirt + Goodies</p>
         </div>
 
-        <div className='flex flex-col p-12 my-3 bg-[#242424] items-center'>
+        <div className='transform transition duration-500 hover:scale-110 hover:border hover:border-[#EB7EF1] border-purple-800 flex flex-col p-12 my-3 bg-[#242424] items-center'>
             <img src={greencup} alt="greencup" className='h-20 w-16' />
             <h2 className='font-bold mt-6 text-xl'>Top 5</h2>
             <h2 className='font-bold mb-6 text-xl'>Tecchnical Mock</h2>
             <p>2K each + Tshirt + Goodies</p>
         </div>
 
-        <div className='flex flex-col p-12 my-3 bg-[#242424] items-center'>
+        <div className='transform transition duration-500 hover:scale-110 hover:border hover:border-[#EB7EF1] border-purple-800 flex flex-col p-12 my-3 bg-[#242424] items-center'>
             <img src={orangecup} alt="orangecup" className='h-20 w-16' />
             <h2 className='font-bold mt-6 text-xl'>Top 5</h2>
             <h2 className='font-bold mb-6 text-xl'>Tecchnical Mock</h2>

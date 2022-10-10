@@ -35,37 +35,37 @@ const Webinar = () => {
         <p className=' text-4xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#C385F1] to-[#7A91D6]'>A place-ment to be</p>
         <p className=' text-2xl md:text-3xl mt-3 font-semibold'>1 placement : 5 different scenerio</p>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 my-12  '>
+        <div className='flex justify-between flex-wrap my-8 items-center '>
 
-            <div className='text-center items-center'>
+            <div className='my-4 md:px-8 text-center items-center transform transition duration-500 hover:scale-110'>
                 <img src={sehaj} alt="sehaj" className='h-[10rem]' />
                 <p>Sehaj Maheshwari</p>
                 <p>Data Science Engineer</p>
                 <p>Wipro</p>
             </div>
 
-            <div className='text-center items-center'>
+            <div className='my-4 md:px-8 text-center items-center transform transition duration-500 hover:scale-110'>
                 <img src={navdeesh} alt="navdeesh" className='h-[10rem]' />
                 <p>Navdeesh Ahuja</p>
                 <p>co-founder</p>
                 <p>Pocketly</p>
             </div>
 
-            <div className='text-center items-center'>
+            <div className='my-4 md:px-8 text-center items-center transform transition duration-500 hover:scale-110'>
                 <img src={meet} alt="meet" className='h-[10rem]' />
                 <p>Meet Shukla</p>
                 <p>technology analyst</p>
                 <p>Deutsche Bank</p>
             </div>
 
-            <div className='text-center items-center'>
+            <div className='my-4 md:px-8 text-center items-center transform transition duration-500 hover:scale-110'>
                 <img src={roshan} alt="roshan" className='h-[10rem]' />
                 <p>Roshan Shah</p>
                 <p>Software Engineer</p>
                 <p>Baa</p>
             </div>
 
-            <div className='text-center items-center'>
+            <div className='my-4 md:px-8 text-center items-center transform transition duration-500 hover:scale-110'>
                 <img src={vinit} alt="vinit" className='h-[10rem]' />
                 <p>Vinit Shahdeo</p>
                 <p>SDE-II</p>

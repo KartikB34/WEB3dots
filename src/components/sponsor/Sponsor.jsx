@@ -17,16 +17,16 @@ const Sponsor = () => {
         <p className='text-2xl'>TECH PANELISTS</p>
         
         <div className='mt-12 grid grid-cols-1 sm:grid-cols-2 flex-wrap md:grid-cols-4 gap-8'>
-            <img src={gfg} alt="gfg" />
-            <img src={onedrop} alt="onedrop" />
-            <img src={aws} alt="aws" />
-            <img src={github} alt="github" />
+            <img src={gfg} alt="gfg" className='transform transition duration-500 hover:scale-125 hover:cursor-pointer' />
+            <img src={onedrop} alt="onedrop" className='transform transition duration-500 hover:scale-125 hover:cursor-pointer' />
+            <img src={aws} alt="aws" className='transform transition duration-500 hover:scale-125 hover:cursor-pointer' />
+            <img src={github} alt="github" className='transform transition duration-500 hover:scale-125 hover:cursor-pointer' />
         </div>
       </div>
 
       <div className='mt-16 flex flex-col md:flex-row '>
         <p className='text-2xl md:mr-6'>Want to be a sponsor?</p>
-        <a href='/' className='h-10 flex border-transparent font-bold rounded-lg items-center w-24 bg-gradient-to-r from-[#F678F0] to-[#00E8FF] justify-center'>Apply now</a>        
+        <a href='/' className='transform transition duration-500 hover:scale-125 h-10 flex border-transparent font-bold rounded-lg items-center w-24 bg-gradient-to-r from-[#F678F0] to-[#00E8FF] justify-center'>Apply now</a>        
       </div>
     </div>
   )
