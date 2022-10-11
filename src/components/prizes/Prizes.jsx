@@ -1,16 +1,24 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+
 import bluecup from "../assets/bluecup.png"
 import purplecup from "../assets/purplecup.png"
 import greencup from "../assets/greencup.png"
 import orangecup from "../assets/orangecup.png"
 
 const Prizes = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 800});
+  },[])
+
   return (
     <div className='px-12 pt-20 pb-8'>
        <p className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#C385F1] to-[#7A91D6]'>PRIZES</p>
        <div className='flex items-center'>
         <div className='h-[2px] w-24 bg-gradient-to-r from-[#C385F1] to-[#7A91D6] mr-2'></div>
-        <p className='font-bold text-2xl'>Cash prizes and goodies</p>
+        <p data-Aos="fade-left" className='font-bold text-2xl'>Cash prizes and goodies</p>
        </div>
 
        {/* Actual prizes and goodies */}

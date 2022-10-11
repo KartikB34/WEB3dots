@@ -1,4 +1,7 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+
 import dhairya from "../assets/dhairya.png"
 import time from "../assets/time.png"
 import date from "../assets/date.png"
@@ -12,12 +15,17 @@ import roshan from "../assets/roshan.png"
 import vinit from "../assets/vinit.png"
 
 const Webinar = () => {
+
+    useEffect(() => {
+        Aos.init({duration: 800});
+    },[])
+
   return (
     <div className='px-12 pt-20 pb-16'>
       <p className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#C385F1] to-[#7A91D6]'>WEBINAR</p>
        <div className='flex items-center'>
         <div className='h-[2px] w-24 bg-gradient-to-r from-[#C385F1] to-[#7A91D6] mr-2'></div>
-        <p className='font-bold text-2xl'>and pannel discussion</p>
+        <p data-Aos="fade-left" className='font-bold text-2xl'>and pannel discussion</p>
        </div>
 
        <div className='bg-[#242424] md:flex justify-center items-center mt-16 p-8'>
