@@ -12,7 +12,9 @@ const Landing = () => {
       <div className=''>
         <div className='group relative'>
           <motion.span
-            animate={{fontSize: 50}}
+            initial={{opacity: 0, y:'-100vw'}}
+            animate={{opacity: 1, y:0}}
+            transition={{duration: 4}}
             className='text-6xl md:text-8xl text-transparent bg-clip-text font-extrabold bg-gradient-to-b from-[#C385F1] to-[#7A91D6]'
           >
             WEB3DOT
